@@ -20,4 +20,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 #### Page Preview
 
-<img align="center"  height=300em" width="500em" src="../../assets/c-twitter.png"></img>
+<img align="center"  height="300em" width="500em" src="../../assets/c-twitter.png"> </img>
