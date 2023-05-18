@@ -5,8 +5,13 @@
   <app-post />
 </div>
 
-<div class="flex flex-col items-center justify-center conta mx-auto"></div>
+<div
+  class="flex flex-col items-center justify-center conta mx-auto"
+  *ngFor="let tw of tweets"
+>
+  <app-tweet [TweetMessage]="tw" />
+</div>
 
-<footer class="fixed bottom-0 m-auto w-full">
+<footer class="bottom-0 m-auto w-full">
   <app-footer />
 </footer>

@@ -8,7 +8,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { PostComponent } from './components/post/post.component';
 import { TweetComponent } from './components/tweet/tweet.component';
 import { FooterComponent } from './components/footer/footer.component';
-import {MessagesService} from './services/messages.service'
+import {MessagesService} from './services/messages.service';
+import { AvatarComponent } from './components/avatar/avatar.component'
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import {MessagesService} from './services/messages.service'
     HomeComponent,
     PostComponent,
     TweetComponent,
-    FooterComponent
+    FooterComponent,
+    AvatarComponent
   ],
   imports: [
     BrowserModule,

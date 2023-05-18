@@ -7,12 +7,12 @@ import { MessagesService } from '../../services/messages.service'
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  tweets: string[] = ['hello Wolrd!', 'ola mundo!']
+  tweets: string[] = []
   constructor(private service: MessagesService){
 
   }
   ngOnInit(): void {
-    throw new Error('Method not implemented.');
+   this.tweets = this.service.getMessages()
   }
 
 }
