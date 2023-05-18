@@ -20,4 +20,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 #### Page Preview
 
-<img src="./assets/c-twitter.png" alt="Home Page">
+<a align="center"  height="60em" width="100em" href="https://github.com/TI-1986/clone-twitter/blob/main/src/assets/c-twitter.png?raw=true"></a>
